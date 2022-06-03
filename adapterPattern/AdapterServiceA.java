@@ -1,9 +1,10 @@
 package adapterPattern;
 
-public class AdapterServiceA {
+public class AdapterServiceA implements AdapterServiceIF{
     ServiceA sa1 = new ServiceA();
 
-    void runService() {
+    @Override
+    public void runService() {
         sa1.runServiceA();
     }
 }
