@@ -41,11 +41,11 @@ getInstance() 정적 메서드를 보면 정적 참조 변수에 객체가 할�
 
 그리고 정적 참조 변수에 할당돼 있는 유일한 객체의 참조를 반환한다.
 
-![Untitled](./img/Untitled 1.png)
+![Untitled](./img/Untitled%201.png)
 
 6번째 줄의 주석을 풀면 바로 에러가 나는 것을 확인 할 수 있다. private 생성자이기 때문에 Singleton외부에서 new를 이용해 객체를 생성할 수 없기 때문이다. 주석을 풀었을때 에러메시지는 다음과 같다.
 
-![Untitled](./img/Untitled 2.png)
+![Untitled](./img/Untitled%202.png)
 
 4개의 참조 변수(singletonObject, s1, s2, s3)가 하나의 단일 객체를 참조하는 것을 볼 수 있다.
 
@@ -55,7 +55,7 @@ getInstance() 정적 메서드를 보면 정적 참조 변수에 객체가 할�
 
 실행결과
 
-![Untitled](./img/Untitled 3.png)
+![Untitled](./img/Untitled%203.png)
 
 객체의 고유값인 hashcode를 반환하여 출력하는데 이 값이 3개의 객체 모두 같은 객체를 참조하기 때문에 같은 값이 나온다.
 

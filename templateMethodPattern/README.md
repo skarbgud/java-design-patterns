@@ -6,7 +6,7 @@
 
 ![Untitled](./img/Untitled.png)
 
-![Untitled](./img/Untitled 1.png)
+![Untitled](./img/Untitled%201.png)
 
 Dog클래스와 Cat 클래스 안에 있는 playWithOwner() 메서드를 보면 서로 짖는 부분(멍멍, 야옹야옹)만 빼고는 모두 동일한 것을 볼 수 있다.
 
@@ -14,15 +14,15 @@ Dog클래스와 Cat 클래스 안에 있는 playWithOwner() 메서드를 보면 
 
 따라서 이 코드를 개선해보겠습니다.
 
-![Untitled](./img/Untitled 2.png)
+![Untitled](./img/Untitled%202.png)
 
-![Untitled](./img/Untitled 3.png)
+![Untitled](./img/Untitled%203.png)
 
-![Untitled](./img/Untitled 4.png)
+![Untitled](./img/Untitled%204.png)
 
-![Untitled](./img/Untitled 5.png)
+![Untitled](./img/Untitled%205.png)
 
-![Untitled](./img/Untitled 6.png)
+![Untitled](./img/Untitled%206.png)
 
 상위 클래스인 Animal에는 템플릿(견본)을 제공하는 playWithOwner() 메서드와 하위 클래스에게 구현을 강제하는 play() 추상 메서드, 하위 클래스가 선택적으로 오버라이딩 할 수 있는 runSomething() 메서드가 있다. 하위 클래스인 Dog과 Cat은 상위 클래스인 Animal에서 구현을 강제하고 있는 play() 추상 메서드를 반드시 구현해야 한다.
 
